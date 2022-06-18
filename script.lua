@@ -1047,7 +1047,7 @@ AntiStomp.BorderSizePixel = 0
 AntiStomp.Position = UDim2.new(0.355005682, 0, 0.221326202, 0)
 AntiStomp.Size = UDim2.new(0, 94, 0, 46)
 AntiStomp.Font = Enum.Font.GothamBlack
-AntiStomp.Text = "Anti-Stomp"
+AntiStomp.Text = "Anti-Stomp V2"
 AntiStomp.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiStomp.TextSize = 14.000
 
