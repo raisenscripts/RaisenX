@@ -1,3 +1,11 @@
+if not game:GetService('Players').LocalPlayer:IsInGroup(15121704) then
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "WARNING";
+    Text = "You need to join a group to get access, Group copied to clipboard";
+		Duration = 999;
+	})
+	return setclipboard("https://www.roblox.com/groups/15121704/g-x#!/about")
+end
 if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
