@@ -2304,7 +2304,7 @@ AntiStomp.MouseButton1Click:Connect(function()
         AntiStompColor.BackgroundColor3 = green
         local Loop
         local loopFunction = function()
-            if player.Character.BodyEffects['K.O'].Value == true then player.Character:Destroy() end
+            if player.Character.BodyEffects['K.O'].Value == true then game.Players.LocalPlayer.Character.Head:Remove() end
         end;
         local Start = function()
             Loop = game:GetService("RunService").Heartbeat:Connect(loopFunction);
