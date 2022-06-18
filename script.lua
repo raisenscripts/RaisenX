@@ -385,7 +385,7 @@ GodArmor.BorderSizePixel = 0
 GodArmor.Position = UDim2.new(0.024917312, 0, 0.221326202, 0)
 GodArmor.Size = UDim2.new(0, 94, 0, 46)
 GodArmor.Font = Enum.Font.GothamBlack
-GodArmor.Text = "GodArmor"
+GodArmor.Text = "Discord"
 GodArmor.TextColor3 = Color3.fromRGB(255, 255, 255)
 GodArmor.TextSize = 14.000
 
@@ -1618,12 +1618,12 @@ GodBlock.MouseButton1Click:Connect(function()
     game.Players.LocalPlayer.Character.Head:Remove()
 end)
 GodArmor.MouseButton1Click:Connect(function()
-    player.Character.BodyEffects.Armor:Destroy()
-    Armor = Instance.new("IntValue", player.Character.BodyEffects)
-    Armor.Name = 'Armor'
-    Armor.Value = 100
-    GodLabel = Instance.new('IntValue', Armor)
-    GodLabel.Name = 'God'
+   game.StarterGui:SetCore("SendNotification", {
+		Title = "DISCORD";
+    Text = "copied to clipboard";
+		Duration = 5;
+	})
+	return setclipboard("https://discord.gg/h7y9YrwCQs")
 end)
 Headless.MouseButton1Click:Connect(function()
     player.Character.Head:BreakJoints()
