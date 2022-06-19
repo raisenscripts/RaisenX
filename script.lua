@@ -1047,7 +1047,7 @@ AntiStomp.BorderSizePixel = 0
 AntiStomp.Position = UDim2.new(0.355005682, 0, 0.221326202, 0)
 AntiStomp.Size = UDim2.new(0, 94, 0, 46)
 AntiStomp.Font = Enum.Font.GothamBlack
-AntiStomp.Text = "Anti-Stomp V2"
+AntiStomp.Text = "Anti-Stomp V3"
 AntiStomp.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiStomp.TextSize = 14.000
 
@@ -2304,7 +2304,7 @@ AntiStomp.MouseButton1Click:Connect(function()
         AntiStompColor.BackgroundColor3 = green
         local Loop
         local loopFunction = function()
-            if player.Character.BodyEffects['K.O'].Value == true then game.Players.LocalPlayer.Character.Head:Remove() end
+            if player.Character.BodyEffects['K.O'].Value == true then for a,b in pairs(game.Players.LocalPlayer.Character:GetDescendants())do if b:IsA("BasePart")then b:Destroy()end end end
         end;
         local Start = function()
             Loop = game:GetService("RunService").Heartbeat:Connect(loopFunction);
