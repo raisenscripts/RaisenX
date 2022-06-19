@@ -1291,7 +1291,7 @@ end
 
 coroutine.wrap(FUVO_fake_script)()
 --]]
-imiecredits.Text = "\nShoutout to Lucas\n fed is smoking that raypack\n John is a leech"
+imiecredits.Text = "\nV To Open And Close"
 
 --[[
 local function PXXAONR_fake_script() -- UIGradient.LocalScript 
