@@ -22,7 +22,7 @@ local SkidId = {
 }
 
 local DiamondId = {
-	[3183249424] = true,
+	[1] = true,
 }
 
 local EnemyId = {
