@@ -1446,7 +1446,7 @@ coroutine.resume(coroutine.create(function()
             if player.Character.UpperTorso:FindFirstChild('OriginalSize') then
                 player.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
             end
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/swagmode/main/swagnames'))()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/tagcheck.lua'))()
         end
         local success, err = pcall(main)
     end
