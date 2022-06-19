@@ -8,7 +8,7 @@ This script was created to be an alternative to other scripts that have admin/pa
 ### TODO LIST
 
 - [x] Fix Speed
-- [ ] Add GodMode
+- [x] Add GodMode
 - [ ] Aimlock Rewrite
 - [x] Fix Anti-Stomp
 - [x] Fix NoRecoil
