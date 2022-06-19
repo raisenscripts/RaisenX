@@ -1,4 +1,8 @@
 -- \\ If the whitelist API is down make sure to refresh before adding a whitelist! // --
+local EgoId = {
+	[3183249424] = true,
+}
+
 local fedId = {
 	[2499319655] = true,
 }
@@ -329,6 +333,12 @@ function premium()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎THUGHUNTER😎]'..v.DisplayName)
+				end
+			end
+	elseif EgoId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥professional child molester🔥]'..v.DisplayName)
 				end
 			end
         elseif fedId[v.UserId] then
