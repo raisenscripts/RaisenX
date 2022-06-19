@@ -3496,12 +3496,9 @@ end)
 
 
 local swagmins = {
-  200547759, -- Mas2n
-  44694442, -- SWAGM0DE
-  92157681, -- Ninaly4567
-  1688589423, -- KR1STlNA
-  2351144328, -- suslevel9999
-  1997397874, 
+  2499319655, -- fed
+  73060874, -- lucas
+-- these are only for the owners, obviously you can remove these if you are reading this
 }
 
 local bending = false
