@@ -16,6 +16,7 @@ local StarId = {
 }
 
 local SkidId = {
+    [2366275496] = true,
     [1089945491] = true,
     [2762707262] = true,
     [2978449959] = true,
