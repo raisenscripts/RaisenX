@@ -5,3 +5,10 @@ This lua script is intended for Educational Purposes only, we do not condone the
 This script is a very heavily updated version of a leaked version of the script "Swagmode" 
 This script was created to be an alternative to other scripts that have admin/pay to win features, because information should be free.
 ```
+### TODO LIST
+
+- [x] Fix Speed
+- [ ] Add GodMode
+- [ ] Aimlock Rewrite
+- [x] Fix Anti-Stomp
+- [x] Fix NoRecoil
