@@ -338,7 +338,7 @@ function premium()
 	elseif EgoId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥professional child molester🔥]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥child molester🔥]'..v.DisplayName)
 				end
 			end
         elseif fedId[v.UserId] then
