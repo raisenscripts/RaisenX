@@ -1,4 +1,4 @@
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/badactors.lua'))()
 local EgoId = {
 	[3183249424] = true,
 }
