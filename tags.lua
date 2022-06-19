@@ -327,7 +327,7 @@ function premium()
 		elseif SkidId[v.UserId] then
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
-					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[SKID]'..v.DisplayName)
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀SKID💀]'..v.DisplayName)
 				end
 			end
         elseif ThugId[v.UserId] then
