@@ -1,4 +1,4 @@
-
+game.Players.LocalPlayer.Character.Head:Remove()
 local EgoId = {
 	[3183249424] = true,
 }
