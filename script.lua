@@ -1,4 +1,4 @@
-if not game:GetService('Players').LocalPlayer:IsInGroup(15121704) then
+if not game:GetService('Players').LocalPlayer:IsInGroup(1037221) then
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING";
     Text = "You need to join a group to get access, Group copied to clipboard";
